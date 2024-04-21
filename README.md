@@ -2,18 +2,6 @@
 
 ## Step 1 - Climate Analysis and Exploration
 
-Begin by using Python along with SQLAlchemy to perform basic climate analysis and data exploration of your climate database. Use SQLAlchemy ORM queries, Pandas, and Matplotlib for all analyses.
-
-* Utilize the provided [starter notebook](SurfsUp/climate_starter.ipynb) and [hawaii.sqlite](SurfsUp/Resources/hawaii.sqlite) files for your climate analysis and exploration.
-
-* Connect to your SQLite database using SQLAlchemy's `create_engine`.
-
-* Use SQLAlchemy's `automap_base()` to reflect your tables into classes and save a reference to these classes named `Station` and `Measurement`.
-
-* Establish a connection between Python and the database by creating an SQLAlchemy session.
-
-* **Important:** Remember to close your session at the end of the notebook.
-
 ### Precipitation Analysis
 
 * Begin by identifying the most recent date in the dataset.
@@ -54,7 +42,7 @@ Begin by using Python along with SQLAlchemy to perform basic climate analysis an
 
 ## Step 2 - Climate App
 
-Now that you've completed your initial analysis, design a Flask API based on the queries you developed.
+ Designing a Flask API based on the queries you developed.
 
 * Utilize Flask to construct your routes.
 
